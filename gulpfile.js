@@ -179,5 +179,5 @@ gulp.task('publish', ['pack_build'], function() {
             spawn.sync(answers.npm, ['publish'], {stdio: 'inherit'});
         })
     }, 0)
-    
+
 });
