@@ -11,6 +11,17 @@ module.exports = Bundle.createPrototype({
   canDroping: true,
   canDraging: false,
   canDropto: false,
-  initialChildren: null,
-  configure: null
+  configure: [{
+    name: "key",
+    title: "键值",
+    fieldStyle: "none"
+  }, {
+    name: "tab",
+    title: "名称",
+    fieldStyle: "none"
+  }, {
+    name: "disabled",
+    title: "禁用",
+    fieldStyle: "none"
+  }]
 });
