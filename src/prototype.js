@@ -2,7 +2,7 @@ const {Bundle} = require('engine');
 
 module.exports = Bundle.createPrototype({
   title: "标签项",
-  icon: require('../src/logo.svg'),
+  icon: require('./logo.svg'),
   category: null,
   isInline: false,
   isContainer: true,
