@@ -11,7 +11,6 @@ module.exports = Bundle.createPrototype({
   canDroping: true,
   canDraging: false,
   canDropto: false,
-  initialChildren: null,
   configure: [{
     name: "key",
     title: "键值",
